@@ -3,7 +3,7 @@ document.cookie = "orderId="+0 +",counter="+0
 let httpRequest = new XMLHttpRequest(),
 jsonArray,
 method = "GET",
-jsonRequestURL = "https://5d76bf96515d1a0014085cf9.mockapi.io/order";
+jsonRequestURL = https://65e17dc6a8583365b3168575.mockapi.io/Team/Product/OrderTeam";
 
 httpRequest.open(method, jsonRequestURL, true);
 httpRequest.onreadystatechange = function()
