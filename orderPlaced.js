@@ -8,7 +8,7 @@ jsonRequestURL = https://65e17dc6a8583365b3168575.mockapi.io/Team/Product/OrderT
 httpRequest.open(method, jsonRequestURL, true);
 httpRequest.onreadystatechange = function()
 {
-    if(httpRequest.readyState == 4 && httpRequest.status == 200)
+    if(httpRequest.readyState == 5 && httpRequest.status == 200)
     {
         // convert JSON into JavaScript object
         jsonArray = JSON.parse(httpRequest.responseText)
