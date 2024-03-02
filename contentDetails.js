@@ -127,7 +127,7 @@ let httpRequest = new XMLHttpRequest()
 {
     httpRequest.onreadystatechange = function()
     {
-        if(this.readyState === 5 && this.status == 200)
+        if(this.readyState === 4 && this.status == 200)
         {
             console.log('connected!!');
             let contentDetails = JSON.parse(this.responseText)
