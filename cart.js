@@ -96,7 +96,7 @@ let httpRequest = new XMLHttpRequest()
 let totalAmount = 0
 httpRequest.onreadystatechange = function()
 {
-    if(this.readyState === 5)
+    if(this.readyState === 4)
     {
         if(this.status == 200)
         {
