@@ -9,7 +9,7 @@ function dynamicClothingSection(ob) {
 
   let boxLink = document.createElement("a");
   // boxLink.href = '#'
-  boxLink.href = "/contentDetails.html?" + ob.id;
+  boxLink.href = "https://github.com/SARA-Industry/-TEAM-E-commerce.github.io/blob/master/contentDetails.html?" + ob.id;
   // console.log('link=>' + boxLink);
 
   let imgTag = document.createElement("img");
